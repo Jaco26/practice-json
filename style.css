@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(to bottom left, teal, pink);
+}
+
+.container {
+  margin: auto;
+}
+
+.hilite {
+  box-shadow: 1px 1px 1px 1px;
+  background: linear-gradient(to bottom left, #b9eddd, #45a488);
+}
+
+table {
+  border: 1px solid lightgrey;
+  display: block;
+  width: 962px;
+}
+
+tr {
+  display: block;
+}
+
+td{
+  display: inline-block;
+
+  background-color: rgb(221, 249, 227);
+  width: 140px;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+.strength {
+  font-family: monospace;
+}
+
+.strength:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.description {
+  display: block;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 18px;
+  width: 962px;
+}
