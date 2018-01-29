@@ -1,14 +1,19 @@
 body {
-  background: linear-gradient(to bottom left, teal, pink);
+  display: block;
+  /*background: linear-gradient(to bottom left, teal, pink);*/
+  background-repeat: no-repeat;
+  height: 900px;
+
 }
 
 .container {
-  margin: auto;
+  margin: 10px;
 }
 
 .hilite {
-  box-shadow: 1px 1px 1px 1px;
-  background: linear-gradient(to bottom left, #b9eddd, #45a488);
+  box-shadow: 1px 1px 1px 1px /*black*/;
+  background: linear-gradient(to bottom right, #b9eddd, #45a488);
+  /*color: white;*/
 }
 
 table {
@@ -30,6 +35,10 @@ td{
   padding: 5px;
 }
 
+.name {
+  background: lightblue;
+}
+
 
 .strength {
   font-family: monospace;
@@ -37,7 +46,7 @@ td{
 
 .strength:hover {
   cursor: pointer;
-  box-shadow: 1px 1px 1px 1px;
+  box-shadow: 1px 1px 1px 1px /*black*/;
 }
 
 .description {
